@@ -1,0 +1,83 @@
+/* Style for headers, navigation, headings, and footers—a consistent appearance. */
+
+:root {
+    --primary-color: #3498db; /* Primary color for links and accents */
+    --secondary-color: #2ecc71; /* Secondary color for buttons and highlights */
+    --background-color: #f5f5f5; /* Background color for the page */
+    --font-stack: 'Inter', 'Helvetica Neue', Arial, sans-serif; /* Font stack for body text */
+    --line-height: 1.6; /* Consistent line height for readability */
+}
+/*
+header {
+
+}
+
+nav {
+
+}
+
+main {}
+
+h1, h2, h3 {
+
+}
+
+footer {
+
+}
+
+a {
+
+}
+
+a:hover {
+
+}
+
+a:focus-visible {
+
+}
+
+button:focus-visible {
+
+}
+
+input:focus-visible {
+
+}
+
+
+form {
+
+}
+
+button {
+
+}
+
+project-card {
+
+}
+*/
+/* Choose a font stack with a generic fallback, a readable text color and background, 
+and consistent line spacing. Establish distinct heading levels and a consistent spacing pattern. 
+Use rem for font sizes and em for at least one value that should scale with its local context, such as button padding. */
+
+/* Define at least 4 CSS variables on :root (e.g. two colors, a font stack, a layout value) and consume each via var(). 
+Use these to manage shared design choices rather than repeating their values throughout your stylesheet. */
+
+/* Use Flexbox or Grid for at least one meaningful layout, such as navigation, project cards, or a content-and-sidebar 
+arrangement. Include at least one media query that changes the layout for a narrow screen. Check your homepage and one
+other existing page at approximately 375px and 1280px wide: content must remain readable, controls usable, and navigation
+accessible without page-wide horizontal scrolling. */
+
+/* Use at least one attribute selector and two different combinators: descendant, child (>), adjacent sibling (+), or 
+subsequent sibling (~). Each must style existing content for a clear purpose. Add a brief CSS comment identifying what 
+each selector targets. */
+
+/* Add :hover styling to links and visible :focus styling to interactive elements. Do not remove focus outlines without 
+replacing them. Check that you can move through navigation and controls using the Tab key. */
+
+/* Check all site pages with CSS enabled and disabled. Content, navigation, links, and existing form controls must remain 
+readable and usable in both versions. Keep essential content in the HTML and preserve a meaningful reading order. CSS 
+should enhance the site without being necessary to access it. */
