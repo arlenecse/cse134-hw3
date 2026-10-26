@@ -21,10 +21,13 @@ p {
     color: black;
 }
 
-p {
-    color: orangered;
-}
+/* The reason only the second declaration is applied is because 
+it is later in the CSS file which means it has higher specificity 
+and overrides the previous declaration. */
 
+p {
+    color: orangered; 
+}
 .latin {
   font-style: italic;
 }
