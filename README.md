@@ -1,5 +1,3 @@
-# cse134-hw3
-
 | Field | Value |
 | -------- | -------- |
 | Repository URL | https://github.com/arlenecse/cse134-hw3 |
